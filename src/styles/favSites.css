@@ -1,0 +1,60 @@
+.App {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+}
+
+.ff{
+    margin: 20px;
+}
+a{
+    color: lightgreen;
+}
+a:hover { 
+    color: red;
+  }
+
+.ff li {
+    list-style: none;
+    padding-right: 40px;
+}
+
+.fe{
+    margin: 20px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+.fg{
+    width: 40%;
+    margin: 20px;
+    padding: 20px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+
+.fg:hover{
+    border: solid red;
+    transition: 1s;
+}
+.fg:hover h2{
+    color:red;
+    transition: 1s;
+}
+
+.fe li {
+    list-style: none;
+    padding-right: 40px;
+}
+.fe img{
+    transition: 1s;
+}
+.fe img:hover{
+    transform: scale(1.2);
+}
